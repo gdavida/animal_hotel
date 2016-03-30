@@ -1,7 +1,7 @@
 class Cat < ActiveRecord::Base
 
 
-  # + name - string (given name of the dog)
+  # + name - string (given name of the catr)
   # + breed - string (common breed name)
   # + size - string (one letter S, M, L should be the only choices)
   # + age - integer (number in years)
