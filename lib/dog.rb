@@ -22,5 +22,7 @@ class Dog < ActiveRecord::Base
 	validates :sex, presence: true
 	validates :good_with_kids, presence: true
 
+  has_many :stories
+  belongs_to :volunteer
 
 end
